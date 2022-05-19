@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- slider -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet"/>
+
+        <!-- Font Awesomeが使用できるようになる -->
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+        <!-- Twitterタイムライン埋め込み -->
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <title>Cool Learning | 料金と各コース内容</title>
+    </head>
+    <style>
+        .container-fluid {
+            padding: 0;
+        }
+        .bs-navbar {
+            background-color: pink !important;
+        }
+        /** bootstrapの値を上書き */
+        .row {
+            margin-right: 1px !important;
+        }
+        .inquiry {
+            background-color: #00008b;
+        }
+    </style>
+    <body>
+        <!-- ナビゲーション -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bs-navbar">
+            <div class="container">
+                <a class="navbar-brand text-body" href="index.html">Cool Laerning<br>テスト</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><button class="btn btn-primary">前ページへ戻る</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <!-- 各コース案内 -->
+            <img src="img/kazino_2_1_new.png" alt="料金と各コース内容" class="w-100">
+            <img src="img/kazino_2_2_new.png" alt="スマートラーニングコース" class="w-100">
+            <img src="img/kazino_2_3_new.png" alt="ブラックジャックコース" class="w-100">
+            <img src="img/kazino_2_4_new.png" alt="バカラコース" class="w-100">
+            <img src="img/kazino_2_5_new.png" alt="バカラスクイーズマスターコース" class="w-100">
+            <img src="img/kazino_2_6_new.png" alt="注意事項" class="w-100">
+            <!-- お問い合わせ案内 -->
+            <div class="row inquiry">
+                <div class="col-sm-8">
+                    <p class="text-white">※コース内容や詳細についてのご相談などラインやEメール電話などでお気軽にお問い合わせくださいませ。</p>
+                </div>
+                <div class="col-sm-4">
+                    <button type="button" class="btn btn-primary">前ページへ戻る</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
